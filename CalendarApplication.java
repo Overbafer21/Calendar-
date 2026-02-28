@@ -140,7 +140,7 @@ public class CalendarApplication extends JFrame {
     private JButton createActionButton(String text, Color color) {
         JButton button = new JButton(text);
         button.setFocusPainted(false);
-        button.setForeground(Color.WHITE);
+        button.setForeground(Color.BLACK);
         button.setBackground(color);
         button.setBorder(new EmptyBorder(10, 16, 10, 16));
         button.setMaximumSize(new Dimension(180, 42));
